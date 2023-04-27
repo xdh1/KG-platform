@@ -192,6 +192,7 @@ ToDo：
 
   ```json
   {
+      "file_id": "xxx",
       "file_conent": file,
       "knowledge_point": [
           {"id": "xxxx", "content": "xxxx"}
@@ -245,7 +246,7 @@ request:
 
 ```json
 {
-    "file_conent": file,
+    "file_id": "xxx",
     "knowledge_point": [
         {"id": "xxxx", "content": "xxxx"}
     ],
