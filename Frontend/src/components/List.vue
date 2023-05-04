@@ -35,10 +35,10 @@ import UploadMaterial from "@/components/UploadMaterial.vue";
 
 
 const props = defineProps({
-  listData: {
-    type: Array,
-    default: () => []
-  },
+    listData: {
+        type: Array,
+        default: () => []
+    },
     descriptionFlag: {
         type: Boolean,
         default: true
