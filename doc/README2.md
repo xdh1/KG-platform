@@ -444,7 +444,7 @@ ToDo：
 
 	同教案解析
 
-**保存临时教案: **
+**保存临时教案：**
 
 * URL: `/save-tm`
 * Method: `POST`
@@ -452,7 +452,7 @@ ToDo：
 
 ```txt
 {
-	"tm_id": xxx,  
+    "tm_id": xxx,  
     "tm_name": "xxx",
     "tm_description": "xxx",
     //date可以由后端直接生成
