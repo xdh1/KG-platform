@@ -101,7 +101,7 @@ ToDo：
 
 * Request Body: 
 
-  ```json
+  ```txt
   {
       "query_content": "查询内容"
   }
@@ -109,7 +109,7 @@ ToDo：
 
 * Response Body：
 
-  ```json
+  ```txt
   {
       "code": xxx,
   	"msg": "xxx",
@@ -131,7 +131,7 @@ ToDo：
 
 * Request Body: 
 
-  ```json
+  ```txt
   {
       "userID": "xxx"
   }
@@ -143,7 +143,7 @@ ToDo：
   
 * Response Body：
 
-  ```json
+  ```txt
   {
       "material": [
           {"id": xxxx, "name": "xxx", "date": "2023-4-7", "description": "xxx", "status": 0},
@@ -163,7 +163,7 @@ ToDo：
 
 * Request Body:
 
-    ```json
+    ```txt
     {
         "name": "xxx",
         "date": "XXXX-XX-XX",
@@ -174,7 +174,7 @@ ToDo：
 
 * Response Body:
   
-  ```json
+  ```txt
   {
       "code" = xxx
   }
@@ -191,14 +191,14 @@ ToDo：
 * Method: `POST`
 
 * Request Body
-  ``` json
+  ``` txt
   {
   	“user_id”: xxx
   } 
   ```
 
 * Response Body
-  ```json
+  ```txt
   {
   	"tm": [
   		{"tm_id": xxx, "tm_name": "xxx", "date": "2023-04-07", "description": "xxx"},
@@ -220,7 +220,7 @@ ToDo：
 
 * Request Body:
 
-  ```json
+  ```txt
   {
       "materialID": xxx
   }
@@ -228,7 +228,7 @@ ToDo：
 
 * Response Body:
 
-  ```json
+  ```txt
   {
   	"file_id": xxx,  // file_id == material_id ?
   	"file_content": File,
@@ -253,7 +253,7 @@ ToDo：
 * Method: `POST`
 * Request Body:
 
-```json
+```txt
 {
 	"file_id": xxx,  
 	"knowledge_point": [
@@ -273,7 +273,7 @@ ToDo：
 
 * Response Body:
 
-```json
+```txt
 {
 	"code": 0/1,
 	"msg": "保存成功/失败"
@@ -287,7 +287,7 @@ ToDo：
 * Method: POST
 
 * Request Body
-  ``` json
+  ``` txt
   {
   	"spirit_id": xxx,
   	"case_id": xxx
@@ -295,7 +295,7 @@ ToDo：
   ```
 
 * Response Body
-  ```json
+  ```txt
   {
   	"code": 0/1,
   	"case_id": xxx,
@@ -315,7 +315,7 @@ ToDo：
 
 * Request Body:
 
-  ```json
+  ```txt
   {
       "tm_ID": xxx
   }
@@ -323,7 +323,7 @@ ToDo：
 
 * Response Body:
 
-  ```json
+  ```txt
   {
   	"tm_id": xxx, 
   	"knowledge_point": [
@@ -348,7 +348,7 @@ ToDo：
 * Method: POST
 
 * Request Body
-  ```json
+  ```txt
   {
   	"kp_content" = "xxx",    //用户输入的字符串
   	"kp_id" = xxx  //前端为该知识点生成一个id
@@ -357,7 +357,7 @@ ToDo：
 
 * Response Body
 
-  ```json
+  ```txt
   {
   	"code": 0/1,
   	"spirit": [
@@ -378,14 +378,14 @@ ToDo：
 * Method: `POST`
 
 * Request Body
-  ```json
+  ```txt
   {
   	"tm_id": xxx
   }
   ```
 
 * Response Body
-  ```json
+  ```txt
   {
   	[
   		{"kp_id": xxx, "kp_content": "xxx"},
@@ -401,14 +401,14 @@ ToDo：
 * Method: `POST`
 
 * Request Body
-  ```json
+  ```txt
   {
   	"kp_id": xxx
   }
   ```
 
 * Response Body
-  ```json
+  ```txt
   {
   	[
   		{"spirit_id": xxx, "spirit_content": "xxx"},
@@ -424,14 +424,14 @@ ToDo：
 * Method: `POST`
 
 * Request Body
-  ```json
+  ```txt
   {
   	"spirit_id": xxx
   }
   ```
 
 * Response Body
-  ```json
+  ```txt
   {
   	[
   		{"case_id": xxx, "case_content": "xxx"},
@@ -450,7 +450,7 @@ ToDo：
 * Method: `POST`
 * Request Body:
 
-```json
+```txt
 {
 	"tm_id": xxx,  
     "tm_name": "xxx",
