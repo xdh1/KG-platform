@@ -247,7 +247,7 @@ ToDo：
   }
   ```
 
-**保存生成的教案: **
+**保存生成的教案:**
 
 * URL: `/api/save-material`
 * Method: `POST`
